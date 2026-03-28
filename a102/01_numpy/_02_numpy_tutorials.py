@@ -24,3 +24,10 @@ print(dizi[-2])  # son eleman bir önceki
 print(dizi+15)
 print(dizi*15)
 print(dizi/15)
+
+# Temel İstatistik (Math)
+print("Toplam: ", np.sum(dizi))
+print("Ortalama: ", np.mean(dizi))
+print("En küçük: ", np.min(dizi))
+print("En büyük: ", np.max(dizi))
+print("Standart Sapma: ", np.std(dizi))
